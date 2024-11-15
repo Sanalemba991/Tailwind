@@ -21,12 +21,13 @@ export default function App() {
           <div className="bg-violet-500 h-10"></div>
         </div>
         <div className="md:block hidden ">
-          <p>I will appear on screens 768px  above</p>
+          <p>I will appear on screens 768px above</p>
         </div>
 
         <div className="max-md:block hidden">
-          <p> i will appear below  768px </p>
+          <p> i will appear below 768px </p>
         </div>
+        <button className=" m-1 bg-violet-500 px-2 rounded-2xl  ">Click Me</button>
       </main>
     </>
   );
