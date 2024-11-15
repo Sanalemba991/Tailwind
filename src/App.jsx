@@ -27,7 +27,9 @@ export default function App() {
         <div className="max-md:block hidden">
           <p> i will appear below 768px </p>
         </div>
-        <button className=" m-1 bg-violet-500 px-2 rounded-2xl  ">Click Me</button>
+        <button className="m-3 bg-violet-500 px-2 py-1 rounded-3xl border-yellow-500 text-white hover:bg-gray-400 ">
+          Click Me
+        </button>
       </main>
     </>
   );
