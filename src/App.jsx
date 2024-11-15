@@ -10,10 +10,19 @@ export default function App() {
           <p className=" font-serif  text-3xl mt-4 ">sama </p>
         </div>
         <div className="fixed w-10 h-10 m-2 bg-red-500 top-0"></div>
-        <div className="flex justify-between space-x-2 ">
+        <div className="flex justify-between  ">
           <div className="h-16 w-16 rounded-full bg-blue-400"></div>
           <div className="h-16 w-16 rounded-full bg-blue-400"></div>
           <div className="h-16 w-16 rounded-full bg-blue-400"></div>
+        </div>
+        <div className=" grid grid-cols-5 gap-9">
+          <div className="bg-violet-500 h-10"></div>
+          <div className="bg-violet-500 h-10"></div>
+          <div className="bg-violet-500 h-10"></div>
+          <div className="bg-violet-500 h-10"></div>
+          <div className="bg-violet-500 h-10"></div>
+
+
         </div>
       </main>
     </>
