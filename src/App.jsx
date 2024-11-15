@@ -1,7 +1,7 @@
 export default function App() {
   return (
     <>
-      <main >
+      <main>
         <h1 className="text-4xl font-bold underline text-center text-blue-800 ">
           Hello world!
         </h1>
@@ -20,9 +20,12 @@ export default function App() {
           <div className="bg-violet-500 h-10"></div>
           <div className="bg-violet-500 h-10"></div>
         </div>
-        <div className="md:block hidden" >
-          <p className="text-2xl font-bold"> i will appear 768px </p>
+        <div className="md:block hidden ">
+          <p>I will appear on screens 768px  above</p>
+        </div>
 
+        <div className="max-md:block hidden">
+          <p> i will appear below  768px </p>
         </div>
       </main>
     </>
