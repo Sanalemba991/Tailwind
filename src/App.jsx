@@ -27,9 +27,15 @@ export default function App() {
         <div className="max-md:block hidden">
           <p> i will appear below 768px </p>
         </div>
-        <button className="m-3 bg-violet-500 px-2 py-1 rounded-3xl border-yellow-500 text-white hover:bg-gray-400 ">
+        <button className="m-3 bg-violet-500 px-4 py-2 rounded-3xl border-2 border-yellow-500 text-white hover:bg-violet-400 focus:outline-none focus:ring-2 focus:ring-violet-200 active:bg-slate-900">
           Click Me
         </button>
+        <ul className="mx-2 my-2 space-y-2">
+          <li className="bg-white p-2 first:bg-yellow-100">item1</li>
+          <li className="bg-white p-2 first:bg-yellow-400 odd:bg-blue-300 even:bg-green-500">item 2</li>
+          <li className="bg-white p-2 first:bg-yellow-400 odd:bg-blue-300 even:bg-green-500">item 3</li>
+          <li className="bg-white p-2 first:bg-yellow-400 odd:bg-blue-300 even:bg-green-500">item 4</li>
+        </ul>
       </main>
     </>
   );
