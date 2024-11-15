@@ -15,14 +15,10 @@ export default function App() {
           <div className="h-16 w-16 rounded-full bg-blue-400"></div>
           <div className="h-16 w-16 rounded-full bg-blue-400"></div>
         </div>
-        <div className=" grid grid-cols-5 gap-9">
+        <div className=" grid grid-cols-3 gap-3 mt-3">
           <div className="bg-violet-500 h-10"></div>
           <div className="bg-violet-500 h-10"></div>
           <div className="bg-violet-500 h-10"></div>
-          <div className="bg-violet-500 h-10"></div>
-          <div className="bg-violet-500 h-10"></div>
-
-
         </div>
       </main>
     </>
