@@ -6,12 +6,12 @@ export default function App() {
           Hello world!
         </h1>
 
-        <div className="text-center bg-violet-200 h-90 m-11 w-full  rounded   ">
+        <div className="text-center bg-violet-200 h-90 m-11 w-full  rounded-full   ">
           <p className=" font-serif  text-3xl mt-4 ">sama </p>
         </div>
-        <div className="fixed w-10 h-10 m-2 bg-red-500 top-0"></div>
+        <div className=" sticky w-10 h-9 m-2 bg-red-500 top-0"></div>
         <div className="flex justify-between  ">
-          <div className="h-16 w-16 rounded-full bg-blue-400"></div>
+          <div className="h-16 w-16 rounded-full bg-blue-400 "></div>
           <div className="h-16 w-16 rounded-full bg-blue-400"></div>
           <div className="h-16 w-16 rounded-full bg-blue-400"></div>
         </div>
@@ -57,8 +57,10 @@ export default function App() {
             Dark mode
           </button>
         </div>
-<div>  <p className="text-2xl bg-stone-200 p-[16px]">chest not color</p></div>
-      
+        <div>
+          {" "}
+          <p className="text-2xl bg-stone-200 p-[16px]">chest not color</p>
+        </div>
       </main>
     </>
   );
