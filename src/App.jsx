@@ -3,6 +3,8 @@ import Navbar from './component/Navbar'
 import Hero from './component/Hero'
 import Atm from './component/Atm'
 import He from './component/He'
+import Tick from './component/Tick'
+import Tv from './component/Tv'
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
     <Hero/>
     <Atm/>
     <He/>
+    <Tick/>
+    <Tv/>
    </div>
   )
 }
